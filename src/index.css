@@ -1,0 +1,26 @@
+@import "tailwindcss";
+body
+{
+    background-color: rgb(2, 2, 92);
+    font-family: monospace;
+}
+
+#heading{
+    text-shadow: 5px 5px 20px blue;
+}
+button{
+    box-shadow: 10px 10px 15px blue;
+}
+#b{
+    box-shadow: 0px 0px 0px blue;
+}
+.sms-message {
+    animation: fadeInOut 3s ease-in-out;
+    
+}
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(10px); }
+    20% { opacity: 1; transform: translateY(0); }
+    80% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-10px); }
+}
