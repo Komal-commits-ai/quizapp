@@ -9,7 +9,7 @@ import SelectQuiz from './SelectQuiz.jsx';
 import CreateQuizInfo from './CreateQuizInfo.jsx';
 import CreateQuizForm from './CreateQuizForm.jsx';
 import ManageQuiz from './ManageQuiz.jsx';
-import QuizCreated from './quizCreated.jsx';
+import QuizCreated from './QuizCreated.jsx';
 import QuizDeleted from './QuizDeleted.jsx';
 
 const RouterComponent = () => {
@@ -75,5 +75,6 @@ const RouterComponent = () => {
   ]);
   return <RouterProvider router={router} />;
 };
+
 
 export default RouterComponent
