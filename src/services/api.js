@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000/api'; 
+const API_BASE_URL = 'https://quizapp-backend-kwq5.onrender.com/api'; 
 
 export const getQuizzes = () => axios.get(`${API_BASE_URL}/quizzes`);
 export const createQuiz = (data) => axios.post(`${API_BASE_URL}/quizzes`, data);
@@ -15,4 +15,5 @@ export const createAttempt = async (data) => {
     console.error('Error in createAttempt:', error);  
     throw error;  
   }
+
 };
