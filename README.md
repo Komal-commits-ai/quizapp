@@ -96,6 +96,8 @@ API calls updated to use Render backend URL
 Live URL example:
 
 https://your-quizapp.vercel.app
+
+
 📈 Benefits
 
 Full MERN stack implementation
