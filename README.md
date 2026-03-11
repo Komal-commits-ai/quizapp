@@ -86,7 +86,7 @@ Environment variable: MONGO_URI for MongoDB Atlas
 
 Live URL example:
 
-https://your-backend.onrender.com
+https://quizapp-backend-kwq5.onrender.com
 Frontend → Vercel
 
 src/ folder deployed with Create React App build
