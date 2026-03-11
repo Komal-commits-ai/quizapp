@@ -53,7 +53,7 @@ quizapp/
 
 Clone the repository:
 
-git clone https://github.com/yourusername/quizapp.git
+git clone https://github.com/Komal-commits-ai/quizapp.git
 
 Backend Setup
 
