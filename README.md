@@ -95,7 +95,7 @@ API calls updated to use Render backend URL
 
 Live URL example:
 
-https://your-quizapp.vercel.app
+https://quizapp-frontend-ii6m.onrender.com
 
 
 📈 Benefits
